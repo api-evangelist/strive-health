@@ -1,8 +1,28 @@
 aid: strive-health
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/strive-health.png
 name: Strive Health
-description: 'Strive Health is a company surfaced as a portfolio company of nea, redpoint-ventures and
-  added to the API Evangelist network as a stub for enrichment. Sector: digital-health. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'Strive Health is a Denver-based value-based kidney care company that partners
+  with health systems, nephrologists, and payors to deliver comprehensive care for patients
+  across the kidney disease spectrum, from chronic kidney disease (CKD) and end-stage
+  kidney disease (ESKD) through dialysis and transplant. Its model combines Population
+  Health care teams, Strive Care Partners (nephrologist-led services), Kidney Heroes
+  nurse-practitioner care teams, and the CareMultiplier machine-learning platform for
+  personalized, predictive treatment planning. Strive reports outcomes including higher
+  optimal dialysis starts, reduced hospitalizations and readmissions, and increased home
+  dialysis adoption. The company was surfaced as a portfolio company of NEA and Redpoint
+  Ventures. As of this enrichment pass Strive Health publishes no public developer portal,
+  API, or machine-readable API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/strive-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +33,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Digital Health
+- Kidney Care
+- Value-Based Care
+- Healthcare
+- Machine Learning
+- Population Health
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +49,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/strive-health-domain-security.yml
 - type: Website
   url: https://strivehealth.com
+- type: Blog
+  url: https://strivehealth.com/newsroom/
+- type: Support
+  url: https://strivehealth.com/contact-us/
+- type: PrivacyPolicy
+  url: https://strivehealth.com/privacy-policy/
+- type: TermsOfService
+  url: https://strivehealth.com/terms-and-conditions/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
